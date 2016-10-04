@@ -33,11 +33,11 @@ componentWillMount(){
   styles.use();
 }
 componentWillUnmount(){
-    styles.unuse();
+  styles.unuse();
 }
 //...
 ```
-
+It would also be possible to do this using a Higher-Order Component...
 Each component that requires styling has its own dedicated stylesheet.  
 ## To Run...
 
