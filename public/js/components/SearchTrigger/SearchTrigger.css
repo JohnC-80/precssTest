@@ -1,0 +1,67 @@
+/*SearchFilter*/
+.SearchFilter{
+    &_searchButton{
+        background: transparent;
+        border-width: 0px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: .5em;
+        top: 1em;
+        pointer-events: none;
+    }
+    &_clearButton{
+        background: transparent;
+        border-width: 0px;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 2.3em;
+        top: 1.2em;
+        cursor: pointer;
+        display: none;
+        &:focus{
+            outline: none;
+        }
+    }
+    &_searchIcon{
+      color: #666;
+      font-size: 26px;
+    }
+    &_clearIcon{
+        font-size: 26px;
+        color: #bbb;
+        transition: color .2s ease;
+        &:hover{
+            color: #666;
+        }
+    }
+    &_input{
+      width: 100%;
+      height: 100%;
+      padding: 1em 3.3em 1em 3.3em;
+      border-width: 0px;
+      background-color: transparent;
+      transition: background-color .2s ease;
+      &_textEntered{
+        width: 100%;
+        height: 100%;
+        padding: 1em 3.3em 1em 3.3em;
+        border-width: 0px;
+
+        transition: background-color .2s ease;
+        background-color: #fff; 
+      }
+      &:hover, &:focus, {
+        background-color: #fff;
+      }
+      &::-ms-clear{
+          display:none;
+      }
+    }
+    &_root{
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+}

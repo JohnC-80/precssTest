@@ -1,0 +1,11 @@
+/*Paneset*/
+@import "../../../scss/_theme.css";
+
+.Paneset{
+    display: flex;
+    align-items: stretch;
+    background-color: #ccc;
+    flex-grow: 1;
+    flex-direction: row;
+    height: 100%;
+}

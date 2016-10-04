@@ -1,0 +1,10 @@
+.LabelValue{
+    &_root{
+        margin-bottom: 8px;
+    }
+    &_blocklabel{
+        display: block;
+        font-weight: 700;
+    }
+}
+

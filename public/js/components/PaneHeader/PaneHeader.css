@@ -1,0 +1,22 @@
+/*PaneHeader*/
+@import "../../../scss/_theme.css";
+
+.PaneHeader{
+    &_headerbox{
+        min-height: 70px;
+        height: 70px;
+        background-color: #f6f6f6; 
+        border-bottom: 1px solid #bbb;
+    }
+
+    &_content{
+        background-color: #ececec;
+        width: 100%; 
+        height: 100%;
+        display: flex;
+        flex-direction:row;
+        align-items:stretch;
+        justify-content:center;
+        position:relative;
+    }
+}

@@ -1,0 +1,28 @@
+/*Pane*/
+@import "../../../scss/_theme.css";
+
+.Pane{
+    position: relative;
+    background-color: #f6f6f6; 
+    border-right: 1px solid #bbb;
+    transition: all .1s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    &_content{
+        padding: 10px;
+        overflow: auto;
+        flex-grow: 1;
+    }
+
+    &_resizer{
+        position:absolute;
+        height: 100%;
+        width: 4px;
+        right: 0;
+        cursor: e-resize;
+        z-index: 10;
+    }
+}

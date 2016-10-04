@@ -1,0 +1,20 @@
+/*FilterPane*/
+@import "../../../scss/_theme.css";
+
+.FilterPane{
+        
+    &_label{
+        display: block;
+        text-transform: uppercase;
+        color: #777;
+    }
+
+    &_option{
+        background-color: #f6f6f6;
+        border-radius: 4px;
+    }
+
+    &_Button{
+        backgroundColor: $primaryColor
+    } 
+}

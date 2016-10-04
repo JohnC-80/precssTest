@@ -1,0 +1,13 @@
+@import 'normalize.css/normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html, #app{
+    height: 100%;
+}
+
+

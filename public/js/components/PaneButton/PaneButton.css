@@ -1,0 +1,21 @@
+/*PaneButton*/
+@import "../../../scss/_theme.css";
+
+.PaneButton{
+    padding: 4px;
+    border: 0;
+    background-color: transparent;
+    border-radius:6px;
+    margin-right:4px;
+    min-width: 34px;
+    min-height: 34px;
+    appearance: none;
+    line-height: initial;
+    transition: all .2s ease;
+    &:hover{
+        background-color: #fff;
+    }
+    &:focus{
+        background-color: #fff;
+    }
+}
