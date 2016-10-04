@@ -25,7 +25,7 @@ module.exports ={
             {
                 test:/\.css$/,
                 exclude: /node_modules/,
-                loader:'style/useable?singleton=true!css?modules=true&localIdentName=[local]--[hash:base64:10]!postcss'
+                loader:'style/useable!css?modules=true&localIdentName=[local]--[hash:base64:10]!postcss'
             }
         ]
     },
